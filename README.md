@@ -6,11 +6,11 @@ Initial Setup
 1. Clone 'main' branch from the repository.
 2. run npm install
 
-Development
-npm start
-Start the dev server at http://localhost:3000
-npm test
-Start jest in watch mode
+Development                        
+1.npm start
+2.Start the dev server at http://localhost:3000
+3.npm test
+4.Start jest in watch mode
 
 What's included:
 
