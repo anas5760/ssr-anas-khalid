@@ -7,10 +7,10 @@ Initial Setup
 2. run npm install
 
 Development                        
-1.npm start
-2.Start the dev server at http://localhost:3000
-3.npm test
-4.Start jest in watch mode
+1.npm start                            
+2.Start the dev server at http://localhost:3000          
+3.npm test          
+4.Start jest in watch mode             
 
 What's included:
 
