@@ -17,16 +17,7 @@ const LoadableAbout = Loadable({
 const App = () => (
   <div className="app">
     <Head />
-
-    <nav aria-label="main navigation">
-      <NavLink exact to="/" activeClassName="active">
-        Home
-      </NavLink>{' '}
-      <NavLink exact to="/about" activeClassName="active">
-        About
-      </NavLink>
-    </nav>
-
+    <h1>SpaceX Launch Pograms</h1>
     <main className="main">
       <Switch>
         <Route exact path="/" component={LoadableHome} />

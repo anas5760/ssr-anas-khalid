@@ -2,7 +2,6 @@
     display: flex;
 }
 .container{
-    background: #ececec;
     display: flex;
     flex-flow: row wrap;
     position: relative;
@@ -14,16 +13,22 @@
     flex: 0 1 calc(17%);
     padding: 10px;
     font-size: 11px;
+    font-weight: 700;
+    border: 1px solid #ececec;
 }
 .rocktImg{
     height: 100px;
+    min-width: 100px;
     margin-left: auto;
     margin-right: auto;
     display: block;
+    padding: 10px;
 }
 .spaceImg{
     background: #ececec;
     padding: 5px;
+    margin: 10px 0 10px 0;
+    border-radius: 65px;
 }
 .value{
     color: #1a53ff
@@ -59,4 +64,7 @@
 .years{
     display: flex;
     flex-wrap: wrap;
+}
+.name{
+    margin-left: 20px;
 }

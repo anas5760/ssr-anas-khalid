@@ -34,19 +34,23 @@ const Home = () => {
                     className="rocktImg"
                   />
                 </div>
-                <div className="name">{rocket.mission_name}</div>
-                <div className="details">
+                <div className="name value">{rocket.mission_name}</div>
+                <div className="name">
                   Launch year:{' '}
                   <span className="value">{rocket.launch_year}</span>
                 </div>
                 <div className="name">
-                  Successfull Launch :{' '}
-                  <span className="value">{rocket.launch_success}</span>
+                  Launch :{' '}
+                  <span className="value">
+                    {rocket.launch_success ? 'Success' : 'Failure'}
+                  </span>
                 </div>
                 <div className="name">
-                  Successfull Landing:{' '}
+                  Landing:{' '}
                   <span className="value">
-                    {rocket.rocket.first_stage.cores[0].land_success}
+                    {rocket.rocket.first_stage.cores[0].land_success
+                      ? 'Success'
+                      : 'Failure'}
                   </span>
                 </div>
               </div>

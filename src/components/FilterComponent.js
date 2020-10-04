@@ -167,13 +167,13 @@ class FilterComponent extends Component {
   render() {
     return (
       <div className="filterContainer">
-        <h1>Filters</h1>
+        <h2>Filters</h2>
         <div>
-          <h2>Launch year</h2>
+          <h3>Launch year</h3>
           <div className="years">{this.renderYear()}</div>
         </div>
         <div>
-          <h2>Successfull Launch</h2>
+          <h3>Successfull Launch</h3>
           <div className="years">
             <div
               className={
@@ -198,7 +198,7 @@ class FilterComponent extends Component {
           </div>
         </div>
         <div>
-          <h2>Successfull Landing</h2>
+          <h3>Successfull Landing</h3>
           <div className="years">
             <div
               className={
