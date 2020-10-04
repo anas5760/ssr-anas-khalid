@@ -1,5 +1,5 @@
 # ssr-anas-khalid
-Welcome to Top-Secret SpaceX project implementing ssr to display list using react .
+Welcome to demo Server Side Rendering Project to display SpaceX Mission list using react .
 
 Initial Setup
 
@@ -30,6 +30,6 @@ Docker-ized for production like a bawsss
 
 What could be improved- Will take up as soon as I get some time -
 1. Increase coverage of test cases.
-2. UI improvement for Mobile/Tablet devices.
+2. UI improvement for Mobile/Tablet devices.(need dimensions)
 3. Improve suspense loading on page load.
-4. Pagination for improved UX.
+4. Pagination for improved UX.(need api).
