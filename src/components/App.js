@@ -27,7 +27,7 @@ const App = () => (
 
     <footer>
       <h3>
-        Created By Anas Khalid.UI/UX Developer. Hire me for awsome UI/UX
+        Created By Anas Khalid -- UI/UX Developer. Hire me for awesome UI/UX !!
         experience!!
       </h3>
     </footer>

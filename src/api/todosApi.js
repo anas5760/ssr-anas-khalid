@@ -1,7 +1,7 @@
 export function todosApi(http) {
   return {
     all: () => {
-      return http.get('/launches?limit=100');
+      return http.get('/launches?limit=25');
     },
     filter: (launch_success, land_success, launch_year) => {
       let filter = '';
@@ -14,7 +14,7 @@ export function todosApi(http) {
       if (launch_year) {
         filter += `&launch_year=${launch_year}`;
       }
-      return http.get(`/launches?limit=100${filter}`);
+      return http.get(`/launches?limit=25${filter}`);
     },
     create: newTodo => {
       return http.post('/api/todos', newTodo);
