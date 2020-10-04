@@ -34,7 +34,7 @@ const Home = () => {
                     className="rocktImg"
                   />
                 </div>
-                <div className="name value">{rocket.mission_name}</div>
+                <div className="name value1">{rocket.mission_name}</div>
                 <div className="name">
                   Launch year:{' '}
                   <span className="value">{rocket.launch_year}</span>

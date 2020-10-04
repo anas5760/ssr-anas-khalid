@@ -1,5 +1,6 @@
 .base{
     display: flex;
+    padding-top: 20px;
 }
 .container{
     display: flex;
@@ -15,6 +16,8 @@
     font-size: 11px;
     font-weight: 700;
     border: 1px solid #ececec;
+    height: 217px;
+    border-radius: 15px;
 }
 .rocktImg{
     height: 100px;
@@ -31,7 +34,12 @@
     border-radius: 65px;
 }
 .value{
-    color: #1a53ff
+    color: #888DB6;
+}
+.value1{
+    font-size: 13px;
+    color:#3F4A91;
+    padding-bottom: 10px;
 }
 .filterContainer{
     min-width: 225px;
@@ -67,4 +75,5 @@
 }
 .name{
     margin-left: 20px;
+    margin: 2px 0 2px 0;
 }
