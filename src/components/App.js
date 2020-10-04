@@ -17,7 +17,9 @@ const LoadableAbout = Loadable({
 const App = () => (
   <div className="app">
     <Head />
-    <h1>SpaceX Launch Pograms</h1>
+    <div className="heading">
+      <h1>SpaceX Launch Pograms</h1>
+    </div>
     <main className="main">
       <Switch>
         <Route exact path="/" component={LoadableHome} />
