@@ -1,5 +1,5 @@
 # ssr-anas-khalid
-Sample demo project implementing ssr to display list using react.
+Welcome to Top-Secret SpaceX project implementing ssr to display list using react .
 
 Initial Setup
 
@@ -28,6 +28,7 @@ Prettier and ESLint run on commit
 Docker-ized for production like a bawsss
 
 
-What could be improved
+What could be improved- Will take up as soon as I get some time -
 1. Increase coverage of test cases.
-2. Improve suspense loading on page load.
+2. UI improvement for Mobile/Tablet devices.
+3. Improve suspense loading on page load.
