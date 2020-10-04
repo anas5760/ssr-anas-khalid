@@ -1,0 +1,62 @@
+.base{
+    display: flex;
+}
+.container{
+    background: #ececec;
+    display: flex;
+    flex-flow: row wrap;
+    position: relative;
+}
+
+.rocket {
+    background: #fff;
+    margin: 4px;
+    flex: 0 1 calc(17%);
+    padding: 10px;
+    font-size: 11px;
+}
+.rocktImg{
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+.spaceImg{
+    background: #ececec;
+    padding: 5px;
+}
+.value{
+    color: #1a53ff
+}
+.filterContainer{
+    min-width: 225px;
+    flex-basis: calc(25%);
+}
+.indent{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin: 5px;
+    flex: 0 34%;
+    /* border: red solid; */
+    box-sizing: border-box;
+    background:#C5E09B;
+    text-align: center;
+    border-radius: 5px;
+}
+.activeIndent{
+    height: 30px;
+    width: 30px;
+    padding: 5px;
+    margin: 5px;
+    flex: 0 34%;
+    /* border: red solid; */
+    box-sizing: border-box;
+    text-align: center;
+    border-radius: 5px;
+    background:#7CBA01;
+}
+.years{
+    display: flex;
+    flex-wrap: wrap;
+}
