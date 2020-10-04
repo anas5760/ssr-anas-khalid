@@ -30,6 +30,6 @@ Docker-ized for production like a bawsss
 
 What could be improved- Will take up as soon as I get some time -
 1. Increase coverage of test cases.
-2. UI improvement for Mobile/Tablet devices.(need dimensions)
+2. UI improvement for Mobile devices.(need dimensions.Currently working for desktop and tablet)
 3. Improve suspense loading on page load.
 4. Pagination for improved UX.(need api).
