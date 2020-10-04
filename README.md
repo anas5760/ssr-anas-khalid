@@ -32,3 +32,4 @@ What could be improved- Will take up as soon as I get some time -
 1. Increase coverage of test cases.
 2. UI improvement for Mobile/Tablet devices.
 3. Improve suspense loading on page load.
+4. Pagination for improved UX.
